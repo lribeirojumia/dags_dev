@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+       - echo "Entering build"
+       - echo "Finishing build"
+artifacts:
+  files:
+    - '**/*'
+  name: dag_dev-$(date +%Y-%m-%d)
